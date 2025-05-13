@@ -124,6 +124,7 @@ workspaces:
   - name: '2'
   - name: '3'
   - name: '4'
+    bind_to_monitor: 3
   - name: '5'
     bind_to_monitor: 2
   - name: '6'
