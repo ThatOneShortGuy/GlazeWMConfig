@@ -144,8 +144,9 @@ window_rules:
       - window_process: { equals: 'PowerToys' }
         window_class: { regex: 'HwndWrapper\[PowerToys\.PowerAccent.*?\]' }
       - window_process: { equals: 'Taskmgr' }
-        window_title: { regex: 'Task Manager' }
-      - window_title: { regex: 'File Explorer' }
+        window_title: { regex: 'Task\s*Manager' }
+      - window_title: { regex: 'File\s*Explorer' }
+      - window_title: { regex: 'Snipping\s*Tool' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
