@@ -148,6 +148,7 @@ window_rules:
       - window_title: { regex: 'File\s*Explorer' }
       - window_title: { regex: 'Snipping\s*Tool' }
       - window_process: { regex: 'LiveSplit.*' }
+      - window_title: { regex: 'Steam.*' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
