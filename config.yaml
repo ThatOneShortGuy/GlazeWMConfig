@@ -149,7 +149,8 @@ window_rules:
       - window_title: { regex: 'Snipping\s*Tool' }
       - window_process: { regex: 'LiveSplit.*' }
       - window_title: { regex: 'Steam.*' }
-      - window_title: { regex: 'Setup\s*-?.*' }
+      - window_title: { regex: 'Setup.*' }
+      - window_process: { regex: 'vlc.*' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
