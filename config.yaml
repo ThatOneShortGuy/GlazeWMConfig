@@ -152,6 +152,7 @@ window_rules:
       - window_title: { regex: 'Setup.*' }
       - window_process: { regex: 'vlc.*' }
       - window_title: { equals: 'Unleash RGB' }
+      - window_title: { regex: 'Epic\s*Games\s*Launcher.*' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
